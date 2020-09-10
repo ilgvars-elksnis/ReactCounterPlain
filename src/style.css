@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(to right, #4df75bda, #fd00db);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+
+  font-size: 6rem;
+}
+
+button {
+  background: rgb(0, 0, 0);
+  font-size: 2rem;
+  min-width: 100px;
+  min-height: 100px;
+  margin: 10px;
+  color: rgba(255, 255, 255, 0.8);
+  border: solid 4px rgba(255, 1, 1, 0.658);
+  border-radius: 10px;
+  transition: 200ms;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+button:active {
+  background: rgba(0, 0, 0, 0.4);
+}
